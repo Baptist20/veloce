@@ -5,12 +5,12 @@ import { jaroFont, staatlichesFont } from "@/utils/fonts";
 const navLinks = [
   { name: "ABOUT", href: "/about" },
   { name: "FIND US", href: "/find-us" },
-  { name: "CONTACT", href: "/contact" },
+  { name: "CONTACT", href: "https://wa.me/2347067562814" },
 ];
 const navLinksMd = [
   { name: "ABOUT", href: "/about" },
   { name: "FIND STOCKLISTS", href: "/find-us" },
-  { name: "CONTACT", href: "/contact" },
+  { name: "CONTACT", href: "https://wa.me/2347067562814" },
 ];
 
 export default function Header() {

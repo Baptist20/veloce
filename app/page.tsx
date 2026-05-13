@@ -50,7 +50,7 @@ export default function Home() {
             className="hidden md:block object-center w-auto h-auto"
             fill
             alt="main background image"
-            src={"/main-background-image.png"}
+            src={"/main-background-image.webp"}
           />
           <Image
             className="z-0 w-full md:hidden object-cover"
@@ -169,7 +169,7 @@ export default function Home() {
             primavera
           </p>
           <Link
-            href={"/contact"}
+            href={"https://wa.me/2347067562814"}
             className={`${staatlichesFont.className} text-[100px] leading-20 tracking-wide uppercase md:text-[130px] md:leading-26 lg:text-[150px] text-black w-full`}
           >
             find us
@@ -205,13 +205,13 @@ export default function Home() {
 
             <div className="flex flex-col justify-center items-center pb-12.5 gap-[1.75] lg:pb-30 lg:items-start">
               <Link
-                href={"/contact"}
+                href={"/find-us"}
                 className={`${jaroFont.className} text-[16px] leading-5.5 uppercase md:text-[24px] md:leading-8.25 md:tracking-wide hover:border-b-black hover:border-b lg:text-[26px] lg:leading-9`}
               >
                 find stocklist
               </Link>
               <Link
-                href={"/contact"}
+                href={"/about"}
                 className={`${jaroFont.className} text-[16px] leading-5.5 uppercase md:text-[24px] md:leading-8.25 md:tracking-wide hover:border-b-black hover:border-b lg:text-[26px] lg:leading-9`}
               >
                 about
@@ -222,7 +222,7 @@ export default function Home() {
               <span
                 className={`${jaroFont.className} text-[16px] leading-5.5 uppercase md:text-[24px] md:leading-8.25 md:tracking-wide hover:border-b-black hover:border-b lg:text-[26px] lg:leading-9`}
               >
-                your number here
+                (+234) 706 756 2814
               </span>
               <span
                 className={`${jaroFont.className} text-[16px] leading-5.5 uppercase md:text-[24px] md:leading-8.25 md:tracking-wide hover:border-b-black hover:border-b lg:text-[26px] lg:leading-9`}
@@ -232,12 +232,13 @@ export default function Home() {
             </div>
           </div>
           {/* BOTTOM CONTAINER */}
-          <div className="flex flex-col justify-center items-center px-7.5 pb-5 gap-5 lg:flex-start lg:gap-4.25">
-            <p
+          <div className="flex flex-col justify-center items-center px-7.5 pb-5 gap-5 lg:flex-start lg:gap-4.25 lg:items-start">
+            <Link
+              href={"/"}
               className={`${jaroFont.className} text-[100px] leading-21 tracking-wide uppercase md:text-[240px] md:leading-50.5`}
             >
               veloce
-            </p>
+            </Link>
 
             <p className="font-bold text-[14px] leading-4 tracking-tight">
               company name© 2025 All Rights Reserved
